@@ -19,8 +19,6 @@ public class RegistrarUsuarioStepDefinition {
     @When("se registra con un nombre de usuario {string} y contrasenia {string}")
     public void seRegistraConUnNombreDeUsuarioYContrasenia(String usuario, String password) {
         theActorInTheSpotlight().attemptsTo(RegistrarUsuario.withData(usuario,password));
-
-        //throw new PendingException();
     }
 
     @Then("se realiza el registro de manera exitosa")
