@@ -14,8 +14,6 @@ public class RegistrarUsuarioStepDefinition {
     @Given("el {actor} está en la página de inicio")
     public void elUsuarioEstáEnLaPáginaDeInicio(Actor actor) {
         actor.attemptsTo(NavigateTo.theHomePage());
-        // Write code here that turns the phrase above into concrete actions
-        //throw new PendingException();
     }
 
     @When("se registra con un nombre de usuario {string} y contrasenia {string}")
