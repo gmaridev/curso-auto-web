@@ -25,7 +25,6 @@ public class AgregarProductoStepDefinition {
     String nombreEsperado = OnStage.theActorInTheSpotlight().recall("productoSeleccionado");
     String nombreObtenido = ProductPage.TITLE_PRODUCT.resolveFor(OnStage.theActorInTheSpotlight()).getText();
         Assert.assertEquals(nombreEsperado, nombreObtenido);
-        //throw new PendingException();
     }
 
     @And("agrega el producto a su carrito de compras")

@@ -6,7 +6,6 @@ import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.thucydides.core.webdriver.ThucydidesWebDriverSupport;
-import org.example.Pages.HomePage;
 import org.example.Pages.ProductPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
