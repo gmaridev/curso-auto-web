@@ -24,6 +24,5 @@ public class RegistrarUsuarioStepDefinition {
     @Then("se realiza el registro de manera exitosa")
     public void seRealizaElRegistroDeManeraExitosa() {
         System.out.println("Registro exitoso");
-        //throw new PendingException();
     }
 }
