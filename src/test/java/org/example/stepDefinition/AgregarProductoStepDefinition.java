@@ -11,6 +11,7 @@ import org.example.Tasks.SeleccionarProducto;
 import org.example.Tasks.VerCarrito;
 import org.junit.Assert;
 
+// Pasos de agregar producto
 public class AgregarProductoStepDefinition {
 
     @When("selecciona un producto de la tienda")

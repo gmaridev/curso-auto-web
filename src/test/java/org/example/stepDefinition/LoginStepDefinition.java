@@ -13,6 +13,8 @@ import org.example.Tasks.LoguearUsuario;
 import org.example.Tasks.NavigateTo;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 public class LoginStepDefinition {
+
+    //Pasos del Login
     @Before
     public void setTheStage() {
         OnStage.setTheStage(new OnlineCast());
