@@ -22,8 +22,6 @@ public class LoginStepDefinition {
     @Given("el {actor} se encuentra en la pagina de inicio")
     public void elUsuarioSeEncuentraEnLaPaginaDeInicio(Actor actor) {
         OnStage.setTheStage(new net.serenitybdd.screenplay.actors.OnlineCast());
-
-        // Asignamos el nombre del actor al escenario activo y navegamos
         OnStage.theActorCalled(actor.getName()).attemptsTo(
                 NavigateTo.theHomePage()
         );
